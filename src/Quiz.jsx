@@ -60,131 +60,132 @@ const Quiz = () => {
         multipleChoice: [
             {
                 "id": 1,
-                "question": "___ she like ice cream?",
-                "options": ["Do", "Does", "Is", "Are"],
-                "answer": ["Does"],
+                "question": "___ apple a day keeps ___ doctor away.",
+                "options": ["A / a", "An / a", "The / the", "An / the"],
+                "answer": ["An / the"],
                 "selectedOption": null
             }
             ,
             {
                 "id": 2,
-                "question": "___ they usually go to the gym?",
-                "options": ["Do", "Does", "Is", "Are"],
-                "answer": ["Do"],
+                "question": "She arrived ___ the airport ___ 7 o'clock ___ the evening.",
+                "options": ["in / at / in", "at / in / at", "to / on / in", "at / at / in"],
+                "answer": ["at / at / in"],
                 "selectedOption": null
             }
             ,
             {
                 "id": 3,
-                "question": "They ___ basketball right now.",
-                "options": ["play", "plays", "are playing", "is playing"],
-                "answer": ["are playing"],
+                "question": "I saw ___ interesting movie last night.",
+                "options": ["a", "an", "the", "some"],
+                "answer": ["an"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 4,
-                "question": "What time ___ your English class start?",
-                "options": ["Do", "Does", "Is", "Are"],
-                "answer": ["does"],
+                "question": "He lives ___ a house ___ the end of the street.",
+                "options": ["in / in", "in / at", "at / in", "on / at"],
+                "answer": ["in / at"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 5,
-                "question": "___ she always arrive late?",
-                "options": ["Do", "Does", "Is", "Are"],
-                "answer": ["Does"],
+                "question": "There is ___ apple on ___ table.",
+                "options": ["an / the", "a / the", "the / an", "an / a"],
+                "answer": ["an / the"],
                 "selectedOption": null
             }
+
 
         ]
         ,
         fillInTheBlank: [
             {
                 "id": 6,
-                "question": "He ___ (like) to play basketball on weekends.",
+                "question": "She bought ___ new dress for the party.",
                 "options": [],
-                "answer": ["likes", "Likes", "LIKES"],
+                "answer": ["a", "A"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 7,
-                "question": "She ___ (not have) any pets.",
+                "question": "He lives ___ a small village.",
                 "options": [],
-                "answer": ["does not have", "doesn't have", "Does not have", "Doesn't have", "DOES NOT HAVE", "DOESN'T HAVE"],
+                "answer": ["in", "In", "IN"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 8,
-                "question": "They ___ (play) soccer at the moment.",
+                "question": "The best part of the movie was ___ ending.",
                 "options": [],
-                "answer": ["are playing", "Are playing", "ARE PLAYING"],
+                "answer": ["The", "the", "THE"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 9,
-                "question": "John ___ (not live) in London.",
+                "question": "She arrived ___ the office on time for her meeting.",
                 "options": [],
-                "answer": ["does not live", "doesn't live", "Does not live", "Doesn't live", "DOES NOT LIVE", "DOESN'T LIVE"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             }
             ,
             {
                 "id": 10,
-                "question": "What time ___ the movie start?",
+                "question": "I'm going to buy ___ car next week.",
                 "options": [],
-                "answer": ["does", "Does", "DOES"],
+                "answer": ["a", "A"],
                 "selectedOption": null
             }
+
 
         ]
         ,
         errorIdentification: [
             {
                 "id": 11,
-                "question": "He don't like to eat vegetables.",
-                "options": ["don't", "doesn't", "like", "likes"],
-                "answer": ["don't"],
+                "question": "She wants to become ___ doctor when she grows up.",
+                "options": ["a", "an", "the", "some"],
+                "answer": ["a"],
                 "selectedOption": null
             }
+
 
             ,
             {
                 "id": 12,
-                "question": "John don't have a car.",
-                "options": ["don't", "doesn't", "have", "has"],
-                "answer": ["don't"],
+                "question": "I need the advice from an expert in this matter.",
+                "options": ["the", "an", "some", "a"],
+                "answer": ["the"],
                 "selectedOption": null
             }
+
 
             ,
             {
                 "id": 13,
-                "question": "She are studying for her exam.",
-                "options": ["She", "are", "studying", "for"],
-                "answer": ["are"],
+                "question": "She lives in a small apartment at the top of the building.",
+                "options": ["in", "at", "on", "above"],
+                "answer": ["at"],
                 "selectedOption": null
             }
+
 
             ,
             {
                 "id": 14,
-                "question": "They goes to the gym every morning.",
-                "options": ["They", "goes", "to", "the"],
-                "answer": ["goes"],
-                "selectedOption": null
-            }
-
-            ,
-            {
-                "id": 15,
-                "question": "She doesn't like to plays tennis.",
-                "options": ["doesn't", "like", "to", "plays"],
-                "answer": ["plays"],
+                "question": "Can you pass me a pen, please?",
+                "options": ["a", "an", "the", "some"],
+                "answer": ["a"],
                 "selectedOption": null
             }
 
@@ -193,60 +194,65 @@ const Quiz = () => {
         sentenceCompletion: [
             {
                 "id": 16,
-                "question": "She ___ (study) English every day.",
+                "question": "She always arrives at work ___ 8 o'clock.",
                 "options": [],
-                "answer": ["studies", "Studies", "STUDIES"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 17,
-                "question": "He ___ (not like) coffee.",
+                "question": "The doctor arrived ___ hospital to perform surgery.",
                 "options": [],
-                "answer": ["does not like", "doesn't like", "Does not like", "Doesn't like", "DOES NOT LIKE", "DOESN'T LIKE"],
+                "answer": ["At", "at", "AT"],
                 "selectedOption": null
             }
             ,
             {
                 "id": 18,
-                "question": "They ___ (play) basketball right now.",
+                "question": "They usually meet ___ their office on Mondays.",
                 "options": [],
-                "answer": ["are playing", "Are playing", "ARE PLAYING"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 19,
-                "question": "She ___ (go) to the gym every morning.",
+                "question": "She bought ___ new dress for the wedding.",
                 "options": [],
-                "answer": ["goes", "Goes", "GOES"],
+                "answer": ["a", "A"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 20,
-                "question": "___ they speak Spanish?",
+                "question": "He's waiting ___ the bus stop for his friend.",
                 "options": [],
-                "answer": ["Do", "do", "DO"],
+                "answer": ["at", "At", "AT"],
                 "selectedOption": null
             }
+
 
         ]
         ,
         paragraphInterpretation: [
             {
                 "id": 21,
-                "question": "What does Mary enjoy doing every weekend?",
-                "options": ["Visiting the beach", "Going shopping", "Visiting the local zoo", "Playing video games"],
-                "answer": ["Visiting the local zoo"],
+                "question": "What does Tom enjoy doing after classes?",
+                "options": ["Playing soccer", "Playing basketball", "Playing chess", "Playing video games"],
+                "answer": ["Playing basketball"],
                 "selectedOption": null
             }
+
             ,
             {
                 "id": 22,
-                "question": "What is Mary's favorite animal?",
-                "options": ["Lion", "Monkey", "Giraffe", "Bird"],
-                "answer": ["Giraffe"],
+                "question": "Where did Tom and his family visit last weekend?",
+                "options": ["Park", "Museum", "Beach", "Zoo"],
+                "answer": ["Beach"],
                 "selectedOption": null
             }
             ,
@@ -260,19 +266,12 @@ const Quiz = () => {
             ,
             {
                 "id": 24,
-                "question": "Which animal did they see last Sunday?",
-                "options": ["Giraffe", "Monkey", "Lion", "Bird"],
-                "answer": ["Lion"],
+                "question": "What did Tom enjoy collecting along the shore?",
+                "options": ["Sand", "Seashells", "Rocks", "Fish"],
+                "answer": ["Seashells"],
                 "selectedOption": null
             }
-            ,
-            {
-                "id": 25,
-                "question": "What does Mary like about giraffes?",
-                "options": ["Their long necks and kind eyes", "Their colorful feathers", "Their playful nature", "Their fierce roar"],
-                "answer": ["Their long necks and kind eyes"],
-                "selectedOption": null
-            }
+
 
         ]
         ,
@@ -458,7 +457,7 @@ const Quiz = () => {
                 <img className='w-[150px]' src={reading} alt='' />
             </div>
             <div className='pt-7 '>
-                <p className='mb-2 px-10 text-justify font-light text-gray-700'>Mary loves animals. Every weekend, she visits the local zoo with her family. They enjoy watching the playful monkeys and the colorful birds. Mary's favorite animal is the gentle giraffe because of its long neck and kind eyes. Last Sunday, they also saw a fierce lion roaring in its enclosure. Mary dreams of becoming a veterinarian one day to help care for all kinds of animals.</p>
+                <p className='mb-2 px-10 text-justify font-light text-gray-700'>Tom is a student at Greenfield High School. He enjoys playing basketball with his friends after classes. Last weekend, Tom and his family visited the beach. They built sandcastles and swam in the clear blue water. Tom's favorite part was collecting seashells along the shore. He hopes to visit the beach again soon.</p>
             </div>
             {renderQuestions("paragraphInterpretation", questions.paragraphInterpretation)}
 
